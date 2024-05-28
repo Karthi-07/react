@@ -4,7 +4,7 @@
 //for using another file array first we have to import the another file array into main file
 
 import { countries } from "./countries.js";
-import { webTechs } from "./web_techs.js";
+import { webTechs } from "./web_techs.js"; //import array form different js file
 console.log(countries);
 console.log(webTechs);
 
@@ -49,7 +49,7 @@ let mod = shoppingCart.findIndex((id) => id === "Tea");
 shoppingCart[mod] = "Green Tea";
 console.log(shoppingCart);
 
-//4. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+// In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
 
 let countryIndex  = countries.indexOf("Ethiopia");
 if(countryIndex==-1){
@@ -58,7 +58,7 @@ if(countryIndex==-1){
     console.log(countries[countryIndex]);
 }
 
-// 5. In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
+// In the webTechs array check if Sass exists in the array and if it exists print 'Sass is a CSS preprocess'. If it does not exist add Sass to the array and print the array.
 
 let webtechsIndex = webTechs.indexOf("Sass");
 if(webtechsIndex==-1){
