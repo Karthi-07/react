@@ -4,7 +4,7 @@
 //for using another file array first we have to import the another file array into main file
 
 import { countries } from "./countries.js";
-import { webTechs } from "./web_techs.js";
+import { webTechs } from "./web_techs.js"; //import array form different js file
 console.log(countries);
 console.log(webTechs);
 
